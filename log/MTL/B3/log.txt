@@ -1,0 +1,260 @@
+2024-08-28 21:20:45.313 | INFO     | __main__:<module>:437 - epoch   4	train_loss: 3.26	train_Sens: 0.54	train_Spec: 0.92	train_Acc: 0.72	train_Weighted Acc: 0.73	train_AUC: 0.88	train_precision: 0.88	train_f1: 0.67	train_aupr: 0.83
+2024-08-28 21:20:45.315 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.20	train_dsc_drusen: 0.27	train_dsc_exudate: 0.11	train_dsc_hemorrhage: 0.03	train_dsc_others: 0.00	train_dsc_scar: 0.15
+2024-08-28 21:20:45.315 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.15	train_IOU_exudate: 0.06	train_IOU_hemorrhage: 0.02	train_IOU_others: 0.00	train_IOU_scar: 0.08
+2024-08-28 21:21:33.823 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 21:21:33.823 | INFO     | __main__:<module>:470 - epoch   4	test_loss: 3.05	test_Sens: 0.77	test_Spec: 0.97	test_Acc: 0.94	test_Weighted Acc: 0.87	test_AUC: 0.95	test_precision: 0.83	test_f1: 0.80	test_aupr: 0.82
+2024-08-28 21:21:33.824 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.20	test_dsc_drusen: 0.30	test_dsc_exudate: 0.01	test_dsc_hemorrhage: 0.00	test_dsc_others: 0.00	test_dsc_scar: 0.00
+2024-08-28 21:21:33.824 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.17	test_IOU_exudate: 0.01	test_IOU_hemorrhage: 0.00	test_IOU_others: 0.00	test_IOU_scar: 0.00
+2024-08-28 21:21:34.123 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 21:22:58.142 | INFO     | __main__:<module>:437 - epoch   9	train_loss: 2.33	train_Sens: 0.88	train_Spec: 0.94	train_Acc: 0.91	train_Weighted Acc: 0.91	train_AUC: 0.99	train_precision: 0.93	train_f1: 0.90	train_aupr: 0.94
+2024-08-28 21:22:58.143 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.02	train_dsc_drusen: 0.68	train_dsc_exudate: 0.41	train_dsc_hemorrhage: 0.38	train_dsc_others: 0.00	train_dsc_scar: 0.09
+2024-08-28 21:22:58.143 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.51	train_IOU_exudate: 0.26	train_IOU_hemorrhage: 0.23	train_IOU_others: 0.00	train_IOU_scar: 0.05
+2024-08-28 21:23:01.835 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 21:23:01.836 | INFO     | __main__:<module>:470 - epoch   9	test_loss: 2.90	test_Sens: 0.92	test_Spec: 0.93	test_Acc: 0.93	test_Weighted Acc: 0.92	test_AUC: 0.96	test_precision: 0.71	test_f1: 0.80	test_aupr: 0.82
+2024-08-28 21:23:01.836 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.02	test_dsc_drusen: 0.63	test_dsc_exudate: 0.12	test_dsc_hemorrhage: 0.06	test_dsc_others: 0.00	test_dsc_scar: 0.00
+2024-08-28 21:23:01.836 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.46	test_IOU_exudate: 0.06	test_IOU_hemorrhage: 0.03	test_IOU_others: 0.00	test_IOU_scar: 0.00
+2024-08-28 21:23:02.144 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 21:24:25.636 | INFO     | __main__:<module>:437 - epoch  14	train_loss: 1.80	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:24:25.637 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.02	train_dsc_drusen: 0.64	train_dsc_exudate: 0.44	train_dsc_hemorrhage: 0.48	train_dsc_others: 0.01	train_dsc_scar: 0.52
+2024-08-28 21:24:25.637 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.47	train_IOU_exudate: 0.28	train_IOU_hemorrhage: 0.32	train_IOU_others: 0.00	train_IOU_scar: 0.35
+2024-08-28 21:24:29.143 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 21:24:29.144 | INFO     | __main__:<module>:470 - epoch  14	test_loss: 2.65	test_Sens: 0.92	test_Spec: 0.93	test_Acc: 0.93	test_Weighted Acc: 0.92	test_AUC: 0.98	test_precision: 0.71	test_f1: 0.80	test_aupr: 0.82
+2024-08-28 21:24:29.144 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.02	test_dsc_drusen: 0.64	test_dsc_exudate: 0.17	test_dsc_hemorrhage: 0.07	test_dsc_others: 0.01	test_dsc_scar: 0.04
+2024-08-28 21:24:29.145 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.47	test_IOU_exudate: 0.09	test_IOU_hemorrhage: 0.04	test_IOU_others: 0.00	test_IOU_scar: 0.02
+2024-08-28 21:24:29.456 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 21:25:51.805 | INFO     | __main__:<module>:437 - epoch  19	train_loss: 1.51	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:25:51.806 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.02	train_dsc_drusen: 0.75	train_dsc_exudate: 0.63	train_dsc_hemorrhage: 0.42	train_dsc_others: 0.00	train_dsc_scar: 0.55
+2024-08-28 21:25:51.806 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.60	train_IOU_exudate: 0.46	train_IOU_hemorrhage: 0.26	train_IOU_others: 0.00	train_IOU_scar: 0.38
+2024-08-28 21:25:55.338 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 21:25:55.338 | INFO     | __main__:<module>:470 - epoch  19	test_loss: 2.56	test_Sens: 0.92	test_Spec: 0.93	test_Acc: 0.93	test_Weighted Acc: 0.92	test_AUC: 0.99	test_precision: 0.71	test_f1: 0.80	test_aupr: 0.82
+2024-08-28 21:25:55.339 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.02	test_dsc_drusen: 0.75	test_dsc_exudate: 0.32	test_dsc_hemorrhage: 0.11	test_dsc_others: 0.01	test_dsc_scar: 0.00
+2024-08-28 21:25:55.339 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.60	test_IOU_exudate: 0.19	test_IOU_hemorrhage: 0.06	test_IOU_others: 0.00	test_IOU_scar: 0.00
+2024-08-28 21:25:55.659 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 21:27:16.799 | INFO     | __main__:<module>:437 - epoch  24	train_loss: 1.49	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:27:16.800 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.68	train_dsc_exudate: 0.66	train_dsc_hemorrhage: 0.46	train_dsc_others: 0.17	train_dsc_scar: 0.29
+2024-08-28 21:27:16.801 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.51	train_IOU_exudate: 0.49	train_IOU_hemorrhage: 0.30	train_IOU_others: 0.09	train_IOU_scar: 0.17
+2024-08-28 21:28:42.630 | INFO     | __main__:<module>:437 - epoch  29	train_loss: 1.19	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:28:42.631 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.80	train_dsc_exudate: 0.76	train_dsc_hemorrhage: 0.49	train_dsc_others: 0.55	train_dsc_scar: 0.65
+2024-08-28 21:28:42.631 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.67	train_IOU_exudate: 0.61	train_IOU_hemorrhage: 0.33	train_IOU_others: 0.38	train_IOU_scar: 0.48
+2024-08-28 21:28:46.260 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 21:28:46.261 | INFO     | __main__:<module>:470 - epoch  29	test_loss: 2.48	test_Sens: 0.92	test_Spec: 0.99	test_Acc: 0.97	test_Weighted Acc: 0.95	test_AUC: 0.98	test_precision: 0.92	test_f1: 0.92	test_aupr: 0.93
+2024-08-28 21:28:46.261 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.02	test_dsc_drusen: 0.78	test_dsc_exudate: 0.35	test_dsc_hemorrhage: 0.05	test_dsc_others: 0.38	test_dsc_scar: 0.02
+2024-08-28 21:28:46.262 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.64	test_IOU_exudate: 0.21	test_IOU_hemorrhage: 0.03	test_IOU_others: 0.23	test_IOU_scar: 0.01
+2024-08-28 21:28:46.591 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 21:30:09.225 | INFO     | __main__:<module>:437 - epoch  34	train_loss: 1.10	train_Sens: 1.00	train_Spec: 0.99	train_Acc: 0.99	train_Weighted Acc: 0.99	train_AUC: 1.00	train_precision: 0.99	train_f1: 0.99	train_aupr: 0.99
+2024-08-28 21:30:09.226 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.83	train_dsc_exudate: 0.79	train_dsc_hemorrhage: 0.63	train_dsc_others: 0.23	train_dsc_scar: 0.80
+2024-08-28 21:30:09.226 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.71	train_IOU_exudate: 0.65	train_IOU_hemorrhage: 0.46	train_IOU_others: 0.13	train_IOU_scar: 0.67
+2024-08-28 21:30:13.001 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 21:30:13.001 | INFO     | __main__:<module>:470 - epoch  34	test_loss: 2.36	test_Sens: 0.92	test_Spec: 0.97	test_Acc: 0.96	test_Weighted Acc: 0.95	test_AUC: 0.98	test_precision: 0.86	test_f1: 0.89	test_aupr: 0.90
+2024-08-28 21:30:13.002 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.02	test_dsc_drusen: 0.80	test_dsc_exudate: 0.37	test_dsc_hemorrhage: 0.20	test_dsc_others: 0.26	test_dsc_scar: 0.00
+2024-08-28 21:30:13.002 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.66	test_IOU_exudate: 0.23	test_IOU_hemorrhage: 0.11	test_IOU_others: 0.15	test_IOU_scar: 0.00
+2024-08-28 21:30:13.318 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 21:31:36.479 | INFO     | __main__:<module>:437 - epoch  39	train_loss: 1.01	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:31:36.479 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.84	train_dsc_exudate: 0.82	train_dsc_hemorrhage: 0.70	train_dsc_others: 0.47	train_dsc_scar: 0.77
+2024-08-28 21:31:36.480 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.73	train_IOU_exudate: 0.70	train_IOU_hemorrhage: 0.54	train_IOU_others: 0.31	train_IOU_scar: 0.62
+2024-08-28 21:31:40.161 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 21:31:40.162 | INFO     | __main__:<module>:470 - epoch  39	test_loss: 2.42	test_Sens: 0.85	test_Spec: 0.99	test_Acc: 0.96	test_Weighted Acc: 0.92	test_AUC: 0.98	test_precision: 0.92	test_f1: 0.88	test_aupr: 0.89
+2024-08-28 21:31:40.163 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.02	test_dsc_drusen: 0.78	test_dsc_exudate: 0.41	test_dsc_hemorrhage: 0.25	test_dsc_others: 0.74	test_dsc_scar: 0.06
+2024-08-28 21:31:40.163 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.64	test_IOU_exudate: 0.26	test_IOU_hemorrhage: 0.14	test_IOU_others: 0.59	test_IOU_scar: 0.03
+2024-08-28 21:31:40.489 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 21:33:02.255 | INFO     | __main__:<module>:437 - epoch  44	train_loss: 0.95	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:33:02.256 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.83	train_dsc_exudate: 0.83	train_dsc_hemorrhage: 0.79	train_dsc_others: 0.79	train_dsc_scar: 0.77
+2024-08-28 21:33:02.256 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.71	train_IOU_exudate: 0.71	train_IOU_hemorrhage: 0.65	train_IOU_others: 0.66	train_IOU_scar: 0.63
+2024-08-28 21:33:06.027 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 21:33:06.028 | INFO     | __main__:<module>:470 - epoch  44	test_loss: 2.28	test_Sens: 0.85	test_Spec: 0.99	test_Acc: 0.96	test_Weighted Acc: 0.92	test_AUC: 0.99	test_precision: 0.92	test_f1: 0.88	test_aupr: 0.89
+2024-08-28 21:33:06.028 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.02	test_dsc_drusen: 0.78	test_dsc_exudate: 0.46	test_dsc_hemorrhage: 0.32	test_dsc_others: 0.81	test_dsc_scar: 0.15
+2024-08-28 21:33:06.028 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.64	test_IOU_exudate: 0.30	test_IOU_hemorrhage: 0.19	test_IOU_others: 0.68	test_IOU_scar: 0.08
+2024-08-28 21:33:06.345 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 21:34:28.443 | INFO     | __main__:<module>:437 - epoch  49	train_loss: 0.92	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:34:28.444 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.89	train_dsc_exudate: 0.85	train_dsc_hemorrhage: 0.92	train_dsc_others: 0.72	train_dsc_scar: 0.77
+2024-08-28 21:34:28.444 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.80	train_IOU_exudate: 0.74	train_IOU_hemorrhage: 0.85	train_IOU_others: 0.56	train_IOU_scar: 0.63
+2024-08-28 21:35:53.827 | INFO     | __main__:<module>:437 - epoch  54	train_loss: 0.90	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:35:53.829 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.87	train_dsc_exudate: 0.83	train_dsc_hemorrhage: 0.81	train_dsc_others: 0.47	train_dsc_scar: 0.83
+2024-08-28 21:35:53.829 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.77	train_IOU_exudate: 0.71	train_IOU_hemorrhage: 0.68	train_IOU_others: 0.31	train_IOU_scar: 0.71
+2024-08-28 21:37:19.306 | INFO     | __main__:<module>:437 - epoch  59	train_loss: 0.86	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:37:19.307 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.88	train_dsc_exudate: 0.86	train_dsc_hemorrhage: 0.83	train_dsc_others: 0.63	train_dsc_scar: 0.81
+2024-08-28 21:37:19.308 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.78	train_IOU_exudate: 0.75	train_IOU_hemorrhage: 0.72	train_IOU_others: 0.46	train_IOU_scar: 0.67
+2024-08-28 21:38:44.502 | INFO     | __main__:<module>:437 - epoch  64	train_loss: 0.84	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:38:44.503 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.92	train_dsc_exudate: 0.88	train_dsc_hemorrhage: 0.84	train_dsc_others: 0.88	train_dsc_scar: 0.85
+2024-08-28 21:38:44.503 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.85	train_IOU_exudate: 0.79	train_IOU_hemorrhage: 0.73	train_IOU_others: 0.78	train_IOU_scar: 0.73
+2024-08-28 21:38:48.024 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 21:38:48.025 | INFO     | __main__:<module>:470 - epoch  64	test_loss: 2.40	test_Sens: 0.92	test_Spec: 1.00	test_Acc: 0.99	test_Weighted Acc: 0.96	test_AUC: 0.99	test_precision: 1.00	test_f1: 0.96	test_aupr: 0.97
+2024-08-28 21:38:48.026 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.02	test_dsc_drusen: 0.78	test_dsc_exudate: 0.45	test_dsc_hemorrhage: 0.33	test_dsc_others: 0.80	test_dsc_scar: 0.19
+2024-08-28 21:38:48.026 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.64	test_IOU_exudate: 0.29	test_IOU_hemorrhage: 0.20	test_IOU_others: 0.67	test_IOU_scar: 0.10
+2024-08-28 21:38:48.345 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 21:40:11.064 | INFO     | __main__:<module>:437 - epoch  69	train_loss: 0.83	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:40:11.066 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.91	train_dsc_exudate: 0.92	train_dsc_hemorrhage: 0.80	train_dsc_others: 0.60	train_dsc_scar: 0.84
+2024-08-28 21:40:11.066 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.83	train_IOU_exudate: 0.86	train_IOU_hemorrhage: 0.66	train_IOU_others: 0.43	train_IOU_scar: 0.73
+2024-08-28 21:41:38.009 | INFO     | __main__:<module>:437 - epoch  74	train_loss: 1.31	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:41:38.010 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.75	train_dsc_exudate: 0.41	train_dsc_hemorrhage: 0.26	train_dsc_others: 0.24	train_dsc_scar: 0.10
+2024-08-28 21:41:38.010 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.60	train_IOU_exudate: 0.25	train_IOU_hemorrhage: 0.15	train_IOU_others: 0.14	train_IOU_scar: 0.05
+2024-08-28 21:43:06.397 | INFO     | __main__:<module>:437 - epoch  79	train_loss: 0.94	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:43:06.398 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.89	train_dsc_exudate: 0.75	train_dsc_hemorrhage: 0.65	train_dsc_others: 0.61	train_dsc_scar: 0.49
+2024-08-28 21:43:06.399 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.81	train_IOU_exudate: 0.59	train_IOU_hemorrhage: 0.48	train_IOU_others: 0.43	train_IOU_scar: 0.32
+2024-08-28 21:44:33.961 | INFO     | __main__:<module>:437 - epoch  84	train_loss: 0.82	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:44:33.962 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.91	train_dsc_exudate: 0.89	train_dsc_hemorrhage: 0.74	train_dsc_others: 0.52	train_dsc_scar: 0.79
+2024-08-28 21:44:33.962 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.84	train_IOU_exudate: 0.80	train_IOU_hemorrhage: 0.59	train_IOU_others: 0.35	train_IOU_scar: 0.65
+2024-08-28 21:45:59.955 | INFO     | __main__:<module>:437 - epoch  89	train_loss: 0.81	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:45:59.956 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.92	train_dsc_exudate: 0.90	train_dsc_hemorrhage: 0.91	train_dsc_others: 0.42	train_dsc_scar: 0.72
+2024-08-28 21:45:59.957 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.86	train_IOU_exudate: 0.82	train_IOU_hemorrhage: 0.83	train_IOU_others: 0.27	train_IOU_scar: 0.56
+2024-08-28 21:47:30.528 | INFO     | __main__:<module>:437 - epoch  94	train_loss: 0.79	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:47:30.529 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.91	train_dsc_exudate: 0.89	train_dsc_hemorrhage: 0.91	train_dsc_others: 0.50	train_dsc_scar: 0.86
+2024-08-28 21:47:30.529 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.84	train_IOU_exudate: 0.81	train_IOU_hemorrhage: 0.83	train_IOU_others: 0.33	train_IOU_scar: 0.76
+2024-08-28 21:48:56.386 | INFO     | __main__:<module>:437 - epoch  99	train_loss: 0.80	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:48:56.387 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.91	train_dsc_exudate: 0.91	train_dsc_hemorrhage: 0.85	train_dsc_others: 0.73	train_dsc_scar: 0.86
+2024-08-28 21:48:56.388 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.84	train_IOU_exudate: 0.84	train_IOU_hemorrhage: 0.73	train_IOU_others: 0.57	train_IOU_scar: 0.76
+2024-08-28 21:49:00.047 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 21:49:00.048 | INFO     | __main__:<module>:470 - epoch  99	test_loss: 2.50	test_Sens: 0.92	test_Spec: 0.99	test_Acc: 0.97	test_Weighted Acc: 0.95	test_AUC: 0.99	test_precision: 0.92	test_f1: 0.92	test_aupr: 0.93
+2024-08-28 21:49:00.048 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.02	test_dsc_drusen: 0.75	test_dsc_exudate: 0.39	test_dsc_hemorrhage: 0.46	test_dsc_others: 0.89	test_dsc_scar: 0.20
+2024-08-28 21:49:00.049 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.60	test_IOU_exudate: 0.24	test_IOU_hemorrhage: 0.30	test_IOU_others: 0.80	test_IOU_scar: 0.11
+2024-08-28 21:49:00.361 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 21:50:21.932 | INFO     | __main__:<module>:437 - epoch 104	train_loss: 0.78	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:50:21.933 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.93	train_dsc_exudate: 0.92	train_dsc_hemorrhage: 0.89	train_dsc_others: 0.78	train_dsc_scar: 0.91
+2024-08-28 21:50:21.934 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.87	train_IOU_exudate: 0.86	train_IOU_hemorrhage: 0.80	train_IOU_others: 0.64	train_IOU_scar: 0.84
+2024-08-28 21:51:45.875 | INFO     | __main__:<module>:437 - epoch 109	train_loss: 0.78	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:51:45.877 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.93	train_dsc_exudate: 0.92	train_dsc_hemorrhage: 0.91	train_dsc_others: 0.76	train_dsc_scar: 0.89
+2024-08-28 21:51:45.877 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.86	train_IOU_exudate: 0.85	train_IOU_hemorrhage: 0.83	train_IOU_others: 0.61	train_IOU_scar: 0.80
+2024-08-28 21:53:09.887 | INFO     | __main__:<module>:437 - epoch 114	train_loss: 0.78	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:53:09.888 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.93	train_dsc_exudate: 0.90	train_dsc_hemorrhage: 0.92	train_dsc_others: 0.84	train_dsc_scar: 0.86
+2024-08-28 21:53:09.888 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.86	train_IOU_exudate: 0.81	train_IOU_hemorrhage: 0.85	train_IOU_others: 0.72	train_IOU_scar: 0.75
+2024-08-28 21:54:33.742 | INFO     | __main__:<module>:437 - epoch 119	train_loss: 0.79	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:54:33.743 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.88	train_dsc_exudate: 0.89	train_dsc_hemorrhage: 0.90	train_dsc_others: 0.74	train_dsc_scar: 0.86
+2024-08-28 21:54:33.744 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.78	train_IOU_exudate: 0.81	train_IOU_hemorrhage: 0.83	train_IOU_others: 0.59	train_IOU_scar: 0.76
+2024-08-28 21:55:56.327 | INFO     | __main__:<module>:437 - epoch 124	train_loss: 0.77	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:55:56.328 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.94	train_dsc_exudate: 0.92	train_dsc_hemorrhage: 0.85	train_dsc_others: 0.88	train_dsc_scar: 0.90
+2024-08-28 21:55:56.328 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.88	train_IOU_exudate: 0.86	train_IOU_hemorrhage: 0.74	train_IOU_others: 0.79	train_IOU_scar: 0.82
+2024-08-28 21:57:19.221 | INFO     | __main__:<module>:437 - epoch 129	train_loss: 0.75	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:57:19.222 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.92	train_dsc_exudate: 0.95	train_dsc_hemorrhage: 0.90	train_dsc_others: 0.91	train_dsc_scar: 0.92
+2024-08-28 21:57:19.222 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.85	train_IOU_exudate: 0.90	train_IOU_hemorrhage: 0.82	train_IOU_others: 0.83	train_IOU_scar: 0.86
+2024-08-28 21:58:47.811 | INFO     | __main__:<module>:437 - epoch 134	train_loss: 0.76	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 21:58:47.812 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.93	train_dsc_exudate: 0.94	train_dsc_hemorrhage: 0.93	train_dsc_others: 0.91	train_dsc_scar: 0.87
+2024-08-28 21:58:47.813 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.87	train_IOU_exudate: 0.88	train_IOU_hemorrhage: 0.87	train_IOU_others: 0.83	train_IOU_scar: 0.78
+2024-08-28 22:00:12.428 | INFO     | __main__:<module>:437 - epoch 139	train_loss: 0.76	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:00:12.429 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.94	train_dsc_exudate: 0.93	train_dsc_hemorrhage: 0.84	train_dsc_others: 0.88	train_dsc_scar: 0.89
+2024-08-28 22:00:12.429 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.88	train_IOU_exudate: 0.87	train_IOU_hemorrhage: 0.73	train_IOU_others: 0.78	train_IOU_scar: 0.80
+2024-08-28 22:01:36.250 | INFO     | __main__:<module>:437 - epoch 144	train_loss: 0.74	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:01:36.252 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.94	train_dsc_exudate: 0.94	train_dsc_hemorrhage: 0.95	train_dsc_others: 0.87	train_dsc_scar: 0.91
+2024-08-28 22:01:36.252 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.88	train_IOU_exudate: 0.89	train_IOU_hemorrhage: 0.90	train_IOU_others: 0.77	train_IOU_scar: 0.83
+2024-08-28 22:02:58.831 | INFO     | __main__:<module>:437 - epoch 149	train_loss: 0.76	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:02:58.832 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.94	train_dsc_exudate: 0.92	train_dsc_hemorrhage: 0.97	train_dsc_others: 0.67	train_dsc_scar: 0.86
+2024-08-28 22:02:58.832 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.89	train_IOU_exudate: 0.86	train_IOU_hemorrhage: 0.93	train_IOU_others: 0.51	train_IOU_scar: 0.75
+2024-08-28 22:04:22.834 | INFO     | __main__:<module>:437 - epoch 154	train_loss: 0.74	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:04:22.835 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.96	train_dsc_exudate: 0.94	train_dsc_hemorrhage: 0.92	train_dsc_others: 0.86	train_dsc_scar: 0.91
+2024-08-28 22:04:22.835 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.91	train_IOU_exudate: 0.89	train_IOU_hemorrhage: 0.85	train_IOU_others: 0.76	train_IOU_scar: 0.83
+2024-08-28 22:05:46.030 | INFO     | __main__:<module>:437 - epoch 159	train_loss: 0.73	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:05:46.031 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.95	train_dsc_exudate: 0.93	train_dsc_hemorrhage: 0.90	train_dsc_others: 0.84	train_dsc_scar: 0.91
+2024-08-28 22:05:46.032 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.90	train_IOU_exudate: 0.88	train_IOU_hemorrhage: 0.82	train_IOU_others: 0.72	train_IOU_scar: 0.83
+2024-08-28 22:07:09.966 | INFO     | __main__:<module>:437 - epoch 164	train_loss: 0.74	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:07:09.967 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.01	train_dsc_drusen: 0.95	train_dsc_exudate: 0.93	train_dsc_hemorrhage: 0.93	train_dsc_others: 0.85	train_dsc_scar: 0.93
+2024-08-28 22:07:09.967 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.90	train_IOU_exudate: 0.88	train_IOU_hemorrhage: 0.87	train_IOU_others: 0.74	train_IOU_scar: 0.87
+2024-08-28 22:08:33.339 | INFO     | __main__:<module>:437 - epoch 169	train_loss: 0.73	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:08:33.340 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.15	train_dsc_drusen: 0.96	train_dsc_exudate: 0.95	train_dsc_hemorrhage: 0.95	train_dsc_others: 0.87	train_dsc_scar: 0.95
+2024-08-28 22:08:33.340 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.93	train_IOU_exudate: 0.90	train_IOU_hemorrhage: 0.90	train_IOU_others: 0.77	train_IOU_scar: 0.90
+2024-08-28 22:09:56.021 | INFO     | __main__:<module>:437 - epoch 174	train_loss: 0.75	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:09:56.022 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.03	train_dsc_drusen: 0.94	train_dsc_exudate: 0.91	train_dsc_hemorrhage: 0.90	train_dsc_others: 0.64	train_dsc_scar: 0.91
+2024-08-28 22:09:56.022 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.88	train_IOU_exudate: 0.83	train_IOU_hemorrhage: 0.81	train_IOU_others: 0.47	train_IOU_scar: 0.83
+2024-08-28 22:11:23.246 | INFO     | __main__:<module>:437 - epoch 179	train_loss: 0.74	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:11:23.247 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.16	train_dsc_drusen: 0.93	train_dsc_exudate: 0.87	train_dsc_hemorrhage: 0.89	train_dsc_others: 0.48	train_dsc_scar: 0.86
+2024-08-28 22:11:23.247 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.88	train_IOU_exudate: 0.78	train_IOU_hemorrhage: 0.80	train_IOU_others: 0.32	train_IOU_scar: 0.76
+2024-08-28 22:12:48.327 | INFO     | __main__:<module>:437 - epoch 184	train_loss: 0.77	train_Sens: 1.00	train_Spec: 0.99	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 0.99	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:12:48.328 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.20	train_dsc_drusen: 0.92	train_dsc_exudate: 0.86	train_dsc_hemorrhage: 0.90	train_dsc_others: 0.70	train_dsc_scar: 0.74
+2024-08-28 22:12:48.329 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.86	train_IOU_exudate: 0.76	train_IOU_hemorrhage: 0.81	train_IOU_others: 0.53	train_IOU_scar: 0.58
+2024-08-28 22:14:12.183 | INFO     | __main__:<module>:437 - epoch 189	train_loss: 0.73	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:14:12.184 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.43	train_dsc_drusen: 0.91	train_dsc_exudate: 0.91	train_dsc_hemorrhage: 0.91	train_dsc_others: 0.87	train_dsc_scar: 0.84
+2024-08-28 22:14:12.185 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.84	train_IOU_exudate: 0.83	train_IOU_hemorrhage: 0.84	train_IOU_others: 0.76	train_IOU_scar: 0.73
+2024-08-28 22:14:15.720 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 22:14:15.721 | INFO     | __main__:<module>:470 - epoch 189	test_loss: 2.83	test_Sens: 0.85	test_Spec: 0.99	test_Acc: 0.96	test_Weighted Acc: 0.92	test_AUC: 0.95	test_precision: 0.92	test_f1: 0.88	test_aupr: 0.89
+2024-08-28 22:14:15.722 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.40	test_dsc_drusen: 0.72	test_dsc_exudate: 0.41	test_dsc_hemorrhage: 0.46	test_dsc_others: 0.82	test_dsc_scar: 0.36
+2024-08-28 22:14:15.722 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.56	test_IOU_exudate: 0.26	test_IOU_hemorrhage: 0.30	test_IOU_others: 0.69	test_IOU_scar: 0.22
+2024-08-28 22:14:16.063 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 22:15:36.281 | INFO     | __main__:<module>:437 - epoch 194	train_loss: 0.72	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:15:36.282 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.55	train_dsc_drusen: 0.94	train_dsc_exudate: 0.93	train_dsc_hemorrhage: 0.94	train_dsc_others: 0.83	train_dsc_scar: 0.89
+2024-08-28 22:15:36.282 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.89	train_IOU_exudate: 0.87	train_IOU_hemorrhage: 0.89	train_IOU_others: 0.70	train_IOU_scar: 0.81
+2024-08-28 22:15:39.891 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 22:15:39.892 | INFO     | __main__:<module>:470 - epoch 194	test_loss: 2.96	test_Sens: 0.92	test_Spec: 0.97	test_Acc: 0.96	test_Weighted Acc: 0.95	test_AUC: 0.95	test_precision: 0.86	test_f1: 0.89	test_aupr: 0.90
+2024-08-28 22:15:39.892 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.47	test_dsc_drusen: 0.72	test_dsc_exudate: 0.41	test_dsc_hemorrhage: 0.46	test_dsc_others: 0.81	test_dsc_scar: 0.33
+2024-08-28 22:15:39.893 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.56	test_IOU_exudate: 0.26	test_IOU_hemorrhage: 0.30	test_IOU_others: 0.68	test_IOU_scar: 0.20
+2024-08-28 22:15:40.194 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 22:17:00.040 | INFO     | __main__:<module>:437 - epoch 199	train_loss: 0.71	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:17:00.041 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.62	train_dsc_drusen: 0.95	train_dsc_exudate: 0.93	train_dsc_hemorrhage: 0.93	train_dsc_others: 0.91	train_dsc_scar: 0.93
+2024-08-28 22:17:00.042 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.91	train_IOU_exudate: 0.87	train_IOU_hemorrhage: 0.87	train_IOU_others: 0.84	train_IOU_scar: 0.86
+2024-08-28 22:18:24.136 | INFO     | __main__:<module>:437 - epoch 204	train_loss: 0.70	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:18:24.138 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.65	train_dsc_drusen: 0.95	train_dsc_exudate: 0.94	train_dsc_hemorrhage: 0.94	train_dsc_others: 0.91	train_dsc_scar: 0.92
+2024-08-28 22:18:24.138 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.90	train_IOU_exudate: 0.90	train_IOU_hemorrhage: 0.89	train_IOU_others: 0.84	train_IOU_scar: 0.85
+2024-08-28 22:18:27.853 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 22:18:27.854 | INFO     | __main__:<module>:470 - epoch 204	test_loss: 3.11	test_Sens: 0.85	test_Spec: 0.99	test_Acc: 0.96	test_Weighted Acc: 0.92	test_AUC: 0.94	test_precision: 0.92	test_f1: 0.88	test_aupr: 0.89
+2024-08-28 22:18:27.854 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.52	test_dsc_drusen: 0.72	test_dsc_exudate: 0.42	test_dsc_hemorrhage: 0.42	test_dsc_others: 0.86	test_dsc_scar: 0.40
+2024-08-28 22:18:27.855 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.56	test_IOU_exudate: 0.27	test_IOU_hemorrhage: 0.27	test_IOU_others: 0.75	test_IOU_scar: 0.25
+2024-08-28 22:18:28.152 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 22:19:46.774 | INFO     | __main__:<module>:437 - epoch 209	train_loss: 0.72	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:19:46.775 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.69	train_dsc_drusen: 0.96	train_dsc_exudate: 0.96	train_dsc_hemorrhage: 0.96	train_dsc_others: 0.91	train_dsc_scar: 0.93
+2024-08-28 22:19:46.775 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.92	train_IOU_exudate: 0.92	train_IOU_hemorrhage: 0.93	train_IOU_others: 0.84	train_IOU_scar: 0.87
+2024-08-28 22:21:06.965 | INFO     | __main__:<module>:437 - epoch 214	train_loss: 0.72	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:21:06.966 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.69	train_dsc_drusen: 0.94	train_dsc_exudate: 0.93	train_dsc_hemorrhage: 0.93	train_dsc_others: 0.93	train_dsc_scar: 0.96
+2024-08-28 22:21:06.967 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.89	train_IOU_exudate: 0.87	train_IOU_hemorrhage: 0.87	train_IOU_others: 0.86	train_IOU_scar: 0.92
+2024-08-28 22:22:26.555 | INFO     | __main__:<module>:437 - epoch 219	train_loss: 0.72	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:22:26.556 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.65	train_dsc_drusen: 0.95	train_dsc_exudate: 0.95	train_dsc_hemorrhage: 0.95	train_dsc_others: 0.90	train_dsc_scar: 0.89
+2024-08-28 22:22:26.557 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.91	train_IOU_exudate: 0.91	train_IOU_hemorrhage: 0.91	train_IOU_others: 0.82	train_IOU_scar: 0.80
+2024-08-28 22:23:48.358 | INFO     | __main__:<module>:437 - epoch 224	train_loss: 0.70	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:23:48.358 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.70	train_dsc_drusen: 0.95	train_dsc_exudate: 0.95	train_dsc_hemorrhage: 0.94	train_dsc_others: 0.93	train_dsc_scar: 0.95
+2024-08-28 22:23:48.359 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.90	train_IOU_exudate: 0.90	train_IOU_hemorrhage: 0.88	train_IOU_others: 0.87	train_IOU_scar: 0.90
+2024-08-28 22:25:08.433 | INFO     | __main__:<module>:437 - epoch 229	train_loss: 0.69	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:25:08.434 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.67	train_dsc_drusen: 0.96	train_dsc_exudate: 0.94	train_dsc_hemorrhage: 0.95	train_dsc_others: 0.91	train_dsc_scar: 0.92
+2024-08-28 22:25:08.434 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.93	train_IOU_exudate: 0.90	train_IOU_hemorrhage: 0.91	train_IOU_others: 0.84	train_IOU_scar: 0.85
+2024-08-28 22:25:11.895 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 22:25:11.896 | INFO     | __main__:<module>:470 - epoch 229	test_loss: 3.09	test_Sens: 0.85	test_Spec: 0.97	test_Acc: 0.95	test_Weighted Acc: 0.91	test_AUC: 0.97	test_precision: 0.85	test_f1: 0.85	test_aupr: 0.86
+2024-08-28 22:25:11.897 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.55	test_dsc_drusen: 0.75	test_dsc_exudate: 0.43	test_dsc_hemorrhage: 0.44	test_dsc_others: 0.87	test_dsc_scar: 0.32
+2024-08-28 22:25:11.897 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.60	test_IOU_exudate: 0.27	test_IOU_hemorrhage: 0.28	test_IOU_others: 0.78	test_IOU_scar: 0.19
+2024-08-28 22:25:12.211 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 22:26:35.453 | INFO     | __main__:<module>:437 - epoch 234	train_loss: 0.72	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:26:35.453 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.72	train_dsc_drusen: 0.94	train_dsc_exudate: 0.76	train_dsc_hemorrhage: 0.92	train_dsc_others: 0.93	train_dsc_scar: 0.89
+2024-08-28 22:26:35.454 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.89	train_IOU_exudate: 0.62	train_IOU_hemorrhage: 0.85	train_IOU_others: 0.87	train_IOU_scar: 0.80
+2024-08-28 22:28:02.841 | INFO     | __main__:<module>:437 - epoch 239	train_loss: 0.72	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:28:02.842 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.70	train_dsc_drusen: 0.95	train_dsc_exudate: 0.93	train_dsc_hemorrhage: 0.95	train_dsc_others: 0.49	train_dsc_scar: 0.92
+2024-08-28 22:28:02.842 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.90	train_IOU_exudate: 0.86	train_IOU_hemorrhage: 0.90	train_IOU_others: 0.33	train_IOU_scar: 0.86
+2024-08-28 22:29:29.955 | INFO     | __main__:<module>:437 - epoch 244	train_loss: 0.71	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:29:29.956 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.68	train_dsc_drusen: 0.96	train_dsc_exudate: 0.95	train_dsc_hemorrhage: 0.95	train_dsc_others: 0.94	train_dsc_scar: 0.95
+2024-08-28 22:29:29.956 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.93	train_IOU_exudate: 0.91	train_IOU_hemorrhage: 0.91	train_IOU_others: 0.88	train_IOU_scar: 0.90
+2024-08-28 22:29:33.693 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 22:29:33.694 | INFO     | __main__:<module>:470 - epoch 244	test_loss: 3.09	test_Sens: 0.85	test_Spec: 0.96	test_Acc: 0.94	test_Weighted Acc: 0.90	test_AUC: 0.97	test_precision: 0.79	test_f1: 0.81	test_aupr: 0.83
+2024-08-28 22:29:33.695 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.55	test_dsc_drusen: 0.75	test_dsc_exudate: 0.49	test_dsc_hemorrhage: 0.40	test_dsc_others: 0.89	test_dsc_scar: 0.35
+2024-08-28 22:29:33.695 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.60	test_IOU_exudate: 0.32	test_IOU_hemorrhage: 0.25	test_IOU_others: 0.80	test_IOU_scar: 0.21
+2024-08-28 22:29:34.003 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 22:30:57.577 | INFO     | __main__:<module>:437 - epoch 249	train_loss: 0.70	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:30:57.578 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.72	train_dsc_drusen: 0.97	train_dsc_exudate: 0.95	train_dsc_hemorrhage: 0.96	train_dsc_others: 0.93	train_dsc_scar: 0.92
+2024-08-28 22:30:57.579 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.94	train_IOU_exudate: 0.90	train_IOU_hemorrhage: 0.93	train_IOU_others: 0.87	train_IOU_scar: 0.86
+2024-08-28 22:31:01.198 | INFO     | __main__:<module>:468 - ====================================
+2024-08-28 22:31:01.199 | INFO     | __main__:<module>:470 - epoch 249	test_loss: 3.12	test_Sens: 0.92	test_Spec: 0.91	test_Acc: 0.91	test_Weighted Acc: 0.92	test_AUC: 0.98	test_precision: 0.67	test_f1: 0.77	test_aupr: 0.80
+2024-08-28 22:31:01.200 | INFO     | __main__:<module>:480 - 	test_dsc_disc: 0.56	test_dsc_drusen: 0.75	test_dsc_exudate: 0.51	test_dsc_hemorrhage: 0.45	test_dsc_others: 0.86	test_dsc_scar: 0.31
+2024-08-28 22:31:01.200 | INFO     | __main__:<module>:486 - 	test_IOU_drusen: 0.59	test_IOU_exudate: 0.35	test_IOU_hemorrhage: 0.29	test_IOU_others: 0.75	test_IOU_scar: 0.18
+2024-08-28 22:31:01.544 | INFO     | __main__:<module>:493 - save model to./checkpoints/AMD_MTL_B3.pkl
+2024-08-28 22:32:24.440 | INFO     | __main__:<module>:437 - epoch 254	train_loss: 0.70	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:32:24.441 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.74	train_dsc_drusen: 0.96	train_dsc_exudate: 0.94	train_dsc_hemorrhage: 0.94	train_dsc_others: 0.95	train_dsc_scar: 0.95
+2024-08-28 22:32:24.441 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.93	train_IOU_exudate: 0.88	train_IOU_hemorrhage: 0.89	train_IOU_others: 0.90	train_IOU_scar: 0.91
+2024-08-28 22:33:50.477 | INFO     | __main__:<module>:437 - epoch 259	train_loss: 0.71	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:33:50.479 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.67	train_dsc_drusen: 0.97	train_dsc_exudate: 0.95	train_dsc_hemorrhage: 0.97	train_dsc_others: 0.89	train_dsc_scar: 0.97
+2024-08-28 22:33:50.479 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.95	train_IOU_exudate: 0.91	train_IOU_hemorrhage: 0.94	train_IOU_others: 0.80	train_IOU_scar: 0.93
+2024-08-28 22:35:16.516 | INFO     | __main__:<module>:437 - epoch 264	train_loss: 0.71	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:35:16.517 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.74	train_dsc_drusen: 0.95	train_dsc_exudate: 0.95	train_dsc_hemorrhage: 0.96	train_dsc_others: 0.90	train_dsc_scar: 0.90
+2024-08-28 22:35:16.517 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.90	train_IOU_exudate: 0.90	train_IOU_hemorrhage: 0.92	train_IOU_others: 0.82	train_IOU_scar: 0.82
+2024-08-28 22:36:43.660 | INFO     | __main__:<module>:437 - epoch 269	train_loss: 0.71	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:36:43.661 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.71	train_dsc_drusen: 0.97	train_dsc_exudate: 0.97	train_dsc_hemorrhage: 0.93	train_dsc_others: 0.93	train_dsc_scar: 0.93
+2024-08-28 22:36:43.662 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.93	train_IOU_exudate: 0.93	train_IOU_hemorrhage: 0.86	train_IOU_others: 0.88	train_IOU_scar: 0.88
+2024-08-28 22:38:09.487 | INFO     | __main__:<module>:437 - epoch 274	train_loss: 0.70	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:38:09.488 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.71	train_dsc_drusen: 0.98	train_dsc_exudate: 0.98	train_dsc_hemorrhage: 0.96	train_dsc_others: 0.67	train_dsc_scar: 0.97
+2024-08-28 22:38:09.488 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.96	train_IOU_exudate: 0.95	train_IOU_hemorrhage: 0.92	train_IOU_others: 0.50	train_IOU_scar: 0.94
+2024-08-28 22:39:37.191 | INFO     | __main__:<module>:437 - epoch 279	train_loss: 0.73	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:39:37.193 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.64	train_dsc_drusen: 0.96	train_dsc_exudate: 0.92	train_dsc_hemorrhage: 0.90	train_dsc_others: 0.85	train_dsc_scar: 0.93
+2024-08-28 22:39:37.193 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.92	train_IOU_exudate: 0.85	train_IOU_hemorrhage: 0.81	train_IOU_others: 0.73	train_IOU_scar: 0.87
+2024-08-28 22:40:59.259 | INFO     | __main__:<module>:437 - epoch 284	train_loss: 0.82	train_Sens: 0.99	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:40:59.259 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.63	train_dsc_drusen: 0.83	train_dsc_exudate: 0.91	train_dsc_hemorrhage: 0.93	train_dsc_others: 0.87	train_dsc_scar: 0.85
+2024-08-28 22:40:59.260 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.71	train_IOU_exudate: 0.84	train_IOU_hemorrhage: 0.86	train_IOU_others: 0.77	train_IOU_scar: 0.73
+2024-08-28 22:42:23.694 | INFO     | __main__:<module>:437 - epoch 289	train_loss: 0.71	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:42:23.695 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.69	train_dsc_drusen: 0.95	train_dsc_exudate: 0.95	train_dsc_hemorrhage: 0.95	train_dsc_others: 0.92	train_dsc_scar: 0.91
+2024-08-28 22:42:23.695 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.91	train_IOU_exudate: 0.90	train_IOU_hemorrhage: 0.91	train_IOU_others: 0.85	train_IOU_scar: 0.84
+2024-08-28 22:43:51.835 | INFO     | __main__:<module>:437 - epoch 294	train_loss: 0.69	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:43:51.837 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.76	train_dsc_drusen: 0.94	train_dsc_exudate: 0.94	train_dsc_hemorrhage: 0.96	train_dsc_others: 0.90	train_dsc_scar: 0.91
+2024-08-28 22:43:51.837 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.88	train_IOU_exudate: 0.89	train_IOU_hemorrhage: 0.93	train_IOU_others: 0.82	train_IOU_scar: 0.83
+2024-08-28 22:45:19.145 | INFO     | __main__:<module>:437 - epoch 299	train_loss: 0.71	train_Sens: 1.00	train_Spec: 1.00	train_Acc: 1.00	train_Weighted Acc: 1.00	train_AUC: 1.00	train_precision: 1.00	train_f1: 1.00	train_aupr: 1.00
+2024-08-28 22:45:19.146 | INFO     | __main__:<module>:445 - 	train_dsc_disc: 0.72	train_dsc_drusen: 0.95	train_dsc_exudate: 0.96	train_dsc_hemorrhage: 0.96	train_dsc_others: 0.93	train_dsc_scar: 0.92
+2024-08-28 22:45:19.146 | INFO     | __main__:<module>:451 - 	train_IOU_drusen: 0.91	train_IOU_exudate: 0.93	train_IOU_hemorrhage: 0.92	train_IOU_others: 0.87	train_IOU_scar: 0.86
